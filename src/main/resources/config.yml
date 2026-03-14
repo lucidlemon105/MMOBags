@@ -1,0 +1,30 @@
+# MMOBags Configuration
+# Support for Hex Colors: &#RRGGBB
+language: "en"
+
+settings:
+  show-bag-status: false
+  status-mode: "ACTIONBAR"
+
+bags:
+  GOLD:
+    display-name: "&#FFD700&lGold Pouch"
+    custom-model-data: 1001
+    items:
+      - RAW_GOLD
+      - GOLD_INGOT
+      - GOLD_ORE
+      - DEEPSLATE_GOLD_ORE
+    pickup-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    pickup-pitch: 1.5
+    allow-pickup-toggling: true
+  MOBDROPS:
+    display-name: "&#4A5D23&lHunter's Sack"
+    custom-model-data: 1002
+    items:
+      - ROTTEN_FLESH
+      - BONE
+      - STRING
+    pickup-sound: "ENTITY_ZOMBIE_VILLAGER_CONVERTED"
+    pickup-pitch: 0.8
+    allow-pickup-toggling: true

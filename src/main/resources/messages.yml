@@ -1,0 +1,34 @@
+# MMOBags Translation File
+# Support for Hex Colors: &#RRGGBB
+
+en:
+  bag-name: "&f%type% Bag [T%tier%]"
+  inventory-title: "Storage Pouch"
+  bag-lore-capacity: "&7Capacity: &f%size% slots"
+  bag-lore-mmo: "&#AAAAAA&oSpecialized RPG Container"
+  no-nesting: "&#FF5555You cannot put a bag inside another bag!"
+  no-permission: "&#FF5555You do not have permission to do that."
+
+es:
+  bag-name: "&fBolsa de %type% [T%tier%]"
+  inventory-title: "Bolsa de Almacenamiento"
+  bag-lore-capacity: "&7Capacidad: &f%size% ranuras"
+  bag-lore-mmo: "&#AAAAAA&oContenedor Especializado de RPG"
+  no-nesting: "&#FF5555¡No puedes poner una bolsa dentro de otra!"
+  no-permission: "&#FF5555No tienes permiso para hacer eso."
+
+pt:
+  bag-name: "&fBolsa de %type% [T%tier%]"
+  inventory-title: "Bolsa de Armazenamento"
+  bag-lore-capacity: "&7Capacidade: &f%size% slots"
+  bag-lore-mmo: "&#AAAAAA&oRecipiente Especializado de RPG"
+  no-nesting: "&#FF5555Você não pode colocar uma bolsa dentro de outra!"
+  no-permission: "&#FF5555Você não tem permissão para fazer isso."
+
+ru:
+  bag-name: "&fСумка %type% [ур. %tier%]"
+  inventory-title: "Сумка для хранения"
+  bag-lore-capacity: "&7Вместимость: &f%size% слотов"
+  bag-lore-mmo: "&#AAAAAA&oСпециализированный RPG контейнер"
+  no-nesting: "&#FF5555Вы не можете положить сумку в другую сумку!"
+  no-permission: "&#FF5555У вас нет прав для этого."

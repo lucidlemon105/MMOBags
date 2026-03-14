@@ -1,0 +1,33 @@
+name: MMOBags
+version: 1.0.0
+main: com.brokenbanner.bags.MMOBags
+api-version: 1.21
+author: Lucid_Lemon
+description: A high-performance RPG bag system with auto-pickup and custom model support.
+
+commands:
+  bagcreate:
+    description: Turn held item into a bag.
+    usage: /bagcreate <type> <tier>
+    permission: mmobags.admin
+  baggive:
+    description: Give a bag to a player.
+    usage: /baggive <player> <type> <tier>
+    permission: mmobags.admin
+  bagadditem:
+    description: Add held item to a bag's pickup list.
+    usage: /bagadditem <type>
+    permission: mmobags.admin
+  bageditlore:
+    description: Edit the flavor lore of a bag.
+    usage: /bageditlore <text>
+    permission: mmobags.admin
+  bagreload:
+    description: Reload the plugin configs.
+    usage: /bagreload
+    permission: mmobags.admin
+
+permissions:
+  mmobags.admin:
+    description: Allows full access to all MMOBags admin commands.
+    default: op
